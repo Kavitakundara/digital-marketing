@@ -1,0 +1,708 @@
+﻿<!doctype html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <title>PPC Services in Najafgarh, Delhi, India - Digital Samadhaan</title>
+    <!--Mega Tags-->
+    <meta name="description"
+        content="Looking for best Per Pay Click Services in Dwarka? We Digital Samadhaan one of the best Pay Per Click Agency in Delhi For More Call Now.">
+    <meta name="keywords"
+        content="PPC Services in Dwarka, PPC Services in Delhi, PPC Services in India, Pay Per Click Agency in Delhi, Pay Per Click Agency in Dwarka" />
+    <link rel="canonical" href="pay-per-click-2.html">
+    <meta name="author" content="index-2.html">
+    <meta name="robots" content="Index, Follow" />
+    <meta name="distribution" content="India">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#111">
+    <!--Website Favicon Logo-->
+    <link href="images/logo.avif" rel="icon">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <!--Plugin CSS Files-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/blueket.plugin.css" rel="stylesheet">
+    <!-- google font -->
+    <link
+        href="css27a877a87.html?family=Inter:wght@400;500;600;700;800;900&amp;family=Open+Sans:wght@400;500;600&amp;display=swap"
+        rel="stylesheet">
+    <!--Custom CSS File-->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/colormode.css" rel="stylesheet">
+    <!---- form submision script --->
+    <script src="www.google.com/recaptcha/api.html" async defer></script>
+    <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="php/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('#quote').bind('submit', function (event) {
+                // using this page stop being refreshing 
+
+                let email1 = document.forms["quote"]["email"].value;
+                let phone1 = document.forms["quote"]["mobile_number"].value;
+                let content1 = document.forms["quote"]["description"].value;
+                if (email1 == "" || phone1 == "" || content1 == "") {
+                    alert("Please Fill All Mandatory Field !");
+                    return false;
+                } else {
+                    event.preventDefault();
+                    $.ajax({
+                        type: 'POST',
+                        url: 'php/all_form_submit.php',
+                        data: $('#quote').serialize(),
+                        success: function (insert_result) {
+                            grecaptcha.reset();
+                            var myArray = insert_result.split("|");
+                            var errorr = myArray[0];
+                            var word = myArray[1];
+                            if (errorr != "captcha") {
+                                $('#quote').trigger("reset");
+                                Swal.fire({
+                                    icon: errorr,
+                                    title: word,
+                                    showConfirmButton: false,
+                                    timer: 2500
+                                });
+                            } else {
+                                $('#captcha_error2').text(word);
+                            }
+
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+    <script>
+        document.onclick = function (event) {
+            // Compensate for IE<9's non-standard event model
+            //
+            if (event === undefined) event = window.event;
+            var target = 'target' in event ? event.target : event.srcElement;
+            var page = "pay-per-click-2.html";
+            var tagname = target.tagName;
+            if (tagname == "A") {
+                var tagtextcontent = target.href;
+            } else if (tagname == "IMG") {
+                var tagtextcontent = target.src;
+            } else {
+                var tagtextcontent = target.textContent;
+
+            }
+
+            const xmlhttp = new XMLHttpRequest();
+            xmlhttp.onload = function () {
+                //document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+            xmlhttp.open("get.html", "php/click_jack1fa91fa9.html?pagename=" + page + "&tagname=" + tagname + "&content=" + tagtextcontent);
+            xmlhttp.send();
+        };
+    </script>
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="container-fluid">
+            <div class="social-wrapper row align-items-center position-relative">
+
+                <div class="col-lg-8 col-md-4 col-sm-4 col-xs-4 col-4">
+                    <ul class="contact-wrapper">
+
+                        <li>
+                            <a href="tel:+91-7053494589" class="fnt_Poppins ">
+                                <span class="icon-color fnt_fs_20 "><i class="fa fa-phone"
+                                        aria-hidden="true"></i></span>
+                                <span class="d-lg-inline d-none fnt_fs_14">+91-7053494589</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:Support@digitalsamadhaan.com" class="fnt_Poppins fnt_fs_14">
+                                <span class="icon-color fnt_fs_20"><i class="fa fa-envelope"
+                                        aria-hidden="true"></i></span>
+                                <span class="d-xl-inline d-none  fnt_fs_14">Support@digitalsamadhaan.com</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@instavyapar.in" class="fnt_Poppins fnt_fs_14">
+                                <span class="icon-color fnt_fs_20"><i class="fa fa-location"
+                                        aria-hidden="true"></i></span>
+                                <span class=" d-inline-1400  fnt_fs_14">70 Saraswati Enclave Najafgarh
+                                    Pincode-110043</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 col-8">
+
+                    <ul class="social-icon d-flex align-items-center justify-content-end">
+                        <li class="icon-facebook" style="--clr: #1877f2;">
+                            <a href="https://www.facebook.com/digitalsamadhaan/">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="icon-youtube" style="--clr: #ff0000;">
+                            <a href="https://www.youtube.com/@Digitalsamadhaan">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="icon-insta" style="--clr: #c32aa3;">
+                            <a href="https://www.instagram.com/digitalsamadhaan/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Start header -->
+    <header class="header animation headerbg">
+
+        <div class="container-fluid">
+            <div class="wrapper">
+                <!-- header logo -->
+                <div class="header-item-left">
+                    <a class='brandlogo' href='javascript:void(0)'>
+                        <img src="images/logo.avif" alt="logo" class="light">
+                        <img src="images/logo.avif" alt="logo" class="dark">
+                    </a>
+                </div>
+                <!-- header nav -->
+                <div class="header-item-center hic">
+                    <div class="overlay"></div>
+                    <nav class="menu animation" id="menu">
+                        <div class="menu-mobile-header">
+                            <button type="button" class="menu-mobile-arrow"><i
+                                    class="fa-solid fa-angle-left"></i></button>
+                            <div class="menu-mobile-title"></div>
+                            <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <ul class="menu-section">
+                            <li class="menu-item-has-children"><a href='index.html'>Home </a></li>
+                            <li class="menu-item-has-children"><a href="company-profile.html">About Us </a></li>
+                            <li class="menu-item-has-children">
+                                <a>Services <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu-subs menu-mega menu-column-4 sw-hover-2">
+                                    <div class="list-item">
+                                        <h4 class="title">Website Designing</h4>
+                                        <ul>
+                                            <li><a href="responsive-website-designing.html">Responsive Website
+                                                    Designing</a></li>
+
+                                            <li><a href="static-website-designing.html">Static Website Designing</a>
+                                            </li>
+                                            <li><a href="e-commerce-website.html">E-commerce Website Designing</a></li>
+                                            <li><a href="landing-page-design.html">Landing Page Designing</a></li>
+
+                                        </ul>
+                                        <a> <img src="images/blogs/blog-post-1.jpg" loading="lazy" alt="Product Images"
+                                                class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Website Development</h4>
+                                        <ul>
+                                            <li><a href="php-development.html">PHP Development</a></li>
+                                            <li><a href="wordpress-development.html">Wordpress Development </a></li>
+                                            <li><a>&nbsp;</a></li>
+
+                                        </ul>
+                                        <a> <img src="images/blogs/blog-post-6.jpg" loading="lazy" alt="Product Images"
+                                                class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Digital Marketing</h4>
+                                        <ul>
+                                            <li><a href="search-engine-optimization.html">Search Engine Optimization
+                                                    (SEO)</a></li>
+                                            <li><a href="social-media-optimization.html">Social Media Optimization
+                                                    (SMO)</a></li>
+                                            <li><a href="pay-per-click.html">PayPer Click</a></li>
+                                            <li><a href="content-marketing.html">Content Marketing </a></li>
+                                            <li><a href="youtube-marketing.html">YouTube Marketing </a></li>
+                                            <!-- <li><a href="#">Facebook Marketing </a></li> -->
+
+                                            <li><a>&nbsp;</a></li>
+                                        </ul>
+                                        <a> <img src="images/blogs/marketing-blog.jpg" loading="lazy"
+                                                alt="Product Images" class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Graphic Desiging</h4>
+                                        <ul>
+                                            <li><a href="#">Logo Designing </a></li>
+                                            <li><a href="#">Catalogue Designing </a></li>
+
+
+                                            <li><a href="#">Brouchure Designing </a></li>
+                                            <li><a href="#">GIFs / Video / Animation </a></li>
+                                            <li><a>&nbsp;</a></li>
+                                            <li><a>&nbsp;</a></li>
+                                            <li><a>&nbsp;</a></li>
+                                        </ul>
+                                        <a> <img src="images/blogs/uiuxdesign.jpg" loading="lazy" alt="Product Images"
+                                                class="roundimg"></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children"><a href="pricing.html">Our Pricing</a></li>
+                            <!-- <li class="menu-item-has-children"><a href="#">Career </a></li> -->
+                            <li class="menu-item-has-children"><a href="#">Blogs</a></li>
+                            <li class="menu-item-has-children"><a href="contact-us.html">Contact Us </a></li>
+                            <li class="darkmodeswitch">
+                                <div class="switch-wrapper d-none"> <label class="switch" for="blueket"> <input
+                                            type="checkbox" id="blueket"> <span class="slider round"></span> </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header action -->
+                <div class="header-item-right headeraction">
+                    <ul>
+                        <!-- <li><a href="tel:+91-9911557245" class="menu-icon"><i class="fa-solid fa-phone"></i></a> </li> -->
+                        <li>
+                            <a href="#" target="_blank"><img src="images/CHAT%20NOW.png" width="140"> </a>
+                            <!-- <a href="tel:+91-9911557245" class="menu-icon"><i class="fa-brands fa-rocketchat"></i></a> -->
+                        </li>
+                        <li><button type="button" class="menu-mobile-toggle"> <span></span> <span></span> <span></span>
+                                <span></span> </button> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End header -->
+
+    <!-- sidebar menu -->
+    <div class="offcanvas offcanvas-end sidebar-offcanvas" tabindex="-1" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <div class="sidebarlogooff">
+                <img src="images/logo.png" alt="logo" class="sidewhitelogo">
+                <img src="images/logo.png" alt="logo" class="sidedarklogo">
+            </div>
+            <div class="cbtn">
+                <div class="btnclose"> <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button></div>
+            </div>
+        </div>
+
+    </div>
+    <!-- sidebar menu -->
+
+    <!--breadcrum-area -->
+    <section class="breadcrum-area innerheadbg text-white" data-background="images/sec14.jpg">
+        <div id="particles-js"></div>
+        <div class="container index-up">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <div class="breadcrum-area-content">
+
+                        <h2 class="mb15 text-white">Pay Per Click</h2>
+                        <p class=" text-white">Our PPC services help you to get a brand identity, and obtain instant web
+                            traffic from search results quickly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/breadcrum-area -->
+
+    <!-- start sw-about block -->
+    <section class="aboutblock section-space bkbg0  " data-background="images/wbg4.jpg">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-6">
+                    <div class="about-conent paragraph">
+                        <span class="scriptheading dashbefore mb15 wow fadeIn" data-wow-delay=".2s"
+                            data-wow-duration="1500ms"></span>
+                        <h2 class="mb20 wow fadeIn" data-wow-delay=".4s" data-wow-duration="1500ms">Pay Per
+                            Click Agency In Delhi India</h2>
+                        <p class="wow fadeIn" data-wow-delay=".8s" data-wow-duration="1500ms">Digital Samdhaan is based
+                            in Najafgarh India. Leads the way in digital marketing by providing specialized pay per
+                            click
+                            (PPC) services that are tailored to meet the needs of businesses in the competitive online
+                            environment of todays digital landscape.The company utilizes its knowledge and experience to
+                            assist businesses in navigating the intricacies of PPC campaigns with customized solutions
+                            aimed at optimizing return, on investment (ROI).They start by grasping the business goals
+                            and audience of each client to tailor PPC strategies accordingly for maximum impact and
+                            personalization at Digital Samdhaan. By employing techniques, in keyword research and
+                            analysis the company ensures that ads are shown to users who are actively seeking products
+                            or services aligned with what the client offers. This focused strategy not boosts the
+                            chances of attracting top tier leads but also amplifies the overall efficiency of
+                            advertising costs.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 mmt40">
+
+                    <div class="img-collage-set row ">
+
+                        <img src="images/PPC.png" alt="img" class="w-100">
+
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="about-conent paragraph mt20">
+
+                        <p class="wow fadeIn" data-wow-delay=".6s" data-wow-duration="1500ms">We are a well-established
+                            PPC services agency in India with the proven expertise of 2 years in the effective
+                            management of PPC advertising campaigns for a large number of well-known businesses.</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        One of the key advantages of PPC advertising is its ability to provide measurable results.
+                        Digital Samadhaan’s team employs sophisticated tracking and analytics tools to monitor
+                        campaign performance in real time. This data-driven approach enables the continuous
+                        optimization of ads, ensuring that every dollar spent contributes to achieving the client’s
+                        goals. Through detailed reporting and insights, businesses gain a clear understanding of
+                        their campaign’s performance, including metrics such as click-through rates (CTR),
+                        conversion rates, and cost per acquisition (CPA). This transparency allows for informed
+                        decision-making and adjustments to strategies as needed, maximizing the impact of the
+                        advertising budget.</p>
+
+                    <p>Digital Samadhaan’s PPC services encompass a range of platforms, including Google Ads, Bing
+                        Ads, and social media channels like Facebook and LinkedIn. Each platform offers unique
+                        opportunities for reaching different segments of the audience, and the agency’s expertise in
+                        managing these diverse channels ensures that clients benefit from a comprehensive and
+                        well-rounded PPC strategy. Whether it’s driving traffic to a website, generating leads, or
+                        increasing brand awareness, Digital Samadhaan’s team is adept at crafting campaigns that
+                        align with specific business objectives and deliver tangible results.</p>
+
+                    <p>In addition to their technical proficiency, Digital Samadhaan is committed to providing
+                        exceptional customer service. The agency’s collaborative approach involves regular
+                        communication with clients, ensuring that their needs and expectations are met throughout
+                        the campaign. This client-centric focus is integral to building long-term relationships and
+                        delivering results that drive business growth. By staying abreast of industry trends and
+                        emerging technologies, Digital Samadhaan continually adapts its strategies to the evolving
+                        digital landscape, ensuring that clients remain competitive in an ever-changing market.</p>
+
+                    <p>In summary, Digital Samadhaan’s PPC services in Najafgarh represent a strategic investment for
+                        businesses looking to enhance their online visibility and drive targeted traffic. With a
+                        focus on customized strategies, data-driven optimization, and exceptional client service,
+                        the agency delivers effective PPC campaigns that generate measurable results and support
+                        overall business objectives. As the digital advertising landscape continues to evolve,
+                        Digital Samadhaan’s expertise and commitment to excellence make it a valuable partner for
+                        businesses seeking to leverage the power of PPC advertising to achieve their goals.</p>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sw-about block -->
+    <div class="fixed_enquiry_btn_web">
+        <a href="" target="_blank">Proposal <span class="fa fa-download"></span></a>
+    </div>
+    <!-- /Review section  -->
+    <div class="left-bar">
+        <ul>
+            <li><a href="https://wa.me/+917053494589" target="blank"><i
+                        class="fab fa-whatsapp"></i><span>Whatsapp</span></a>
+            </li>
+            <li><a href="tel:+917053494589"><i class="fa fa-phone"></i><span> +91 7053494589</span></a></li>
+            <li><a href="https://www.instagram.com/digitalsamadhaan/" target="blank"><i
+                        class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="https://www.facebook.com/digitalsamadhaan/" target="blank"><i
+                        class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="https://www.youtube.com/@Digitalsamadhaan" target="blank"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!-- sw-footer -->
+    <footer class="footer-design-sw pt60 pb30 text-white swdarkfooter">
+        <div class="container index-up">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <div class="contact-form-card-pr   iconin">
+                        <h4>Get A Free Quote</h4>
+                        <div class="form-block blueketform mt30">
+                            <form id="quote" novalidate="novalidate">
+                                <div class="fieldsets row">
+
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-phone"></i></div>
+                                        <input type="tel" placeholder=" " required="required" id="mobile_number"
+                                            class="floating-input" name="mobile_number">
+                                        <label>Mobile Number*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+                                </div>
+                                <div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-envelope"></i></div>
+                                        <input type="email" placeholder=" " required="required" id="email"
+                                            class="floating-input" name="email">
+                                        <label>Email Address*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+
+                                </div>
+                                <div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-message"></i></div>
+                                        <textarea placeholder=" " required="required" id="description"
+                                            class="floating-input" name="description"></textarea>
+                                        <label>Type Your Message...*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+                                </div>
+                                <div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="g-recaptcha"
+                                            data-sitekey="6LcC_MwjAAAAAKmoer-BWrw2Ah9vUZZF6ef-HaQv"></div>
+                                        <div id="captcha_error2"></div>
+                                    </div>
+                                </div>
+                                <span id="error"></span>
+                                <div class="fieldsets "> <button type="submit" name="submit" id="submit"
+                                        class="porkai-btn "><span>Submit Now</span> <span
+                                            class="loader"></span></button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row  sw-hover-1">
+
+                        <div class="col-lg-5 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Customer Support</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='help-center.html'>Help Center
+                                        </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href='refund-policy.html'>Cancellation &
+                                            Refund Policy
+                                        </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='terms-condition.html'>Terms &
+                                            Conditions
+                                        </a></li>
+                                    <!-- <li><i class="fa-solid fa-chevron-right"></i> <a href="terms-of-use.html">Terms of Use</a></li> -->
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='privacy-policy.html'>Privacy
+                                            Policy</a></li>
+                                    <p>&nbsp;</p>
+                                </ul>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5>About Us</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="company-profile.html">About
+                                            Our Company</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="#"> Our Blogs</a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="contact-us.html">Contact Us
+                                        </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="partner-with-us.html">Partner
+                                            with us </a></li>
+                                    <!-- <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="https://pages.razorpay.com/pl_NYqxfVoMM8pM4c/view">Make a Payment</a>
+                                    </li> -->
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="footer-brand-info">
+
+                                <!-- contact -->
+                                <div class="contactinkediv ">
+                                    <span class="linktitle">Send Us an Email:</span>
+                                    <a href="mailto:Support@digitalsamadhaan.com">Support@digitalsamadhaan.com</a>
+                                </div>
+                                <div class="contactinkediv mt30">
+                                    <span class="linktitle">Customer Helpline IVR no. :</span>
+                                    <a href="tel:+917053494589
+                                    ">+91-7053494589
+
+                                    </a>
+                                </div>
+                                <!-- /contact -->
+                                <div class="contactinkediv mt30">
+                                    <span class="linktitle">Location :</span>
+                                    <p>70 Saraswati Enclave </p>
+                                    <p>Najafgarh Pincode-110043</p>
+                                </div>
+
+                                <!-- social link -->
+                                <div class="social-link-sw mt30">
+                                    <span class="linktitle">Follow Us</span>
+                                    <ul class="footer-social-sw mt10 sw-hover-2">
+                                        <li><a href="https://www.youtube.com/@Digitalsamadhaan" target="_blank"><i
+                                                    class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                        <li> <a href="https://www.facebook.com/digitalsamadhaan/" target="_blank"><i
+                                                    class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+
+                                        <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"
+                                                    aria-hidden="true"></i></a></li>
+                                        <li> <a href="https://www.instagram.com/digitalsamadhaan/" target="_blank"><i
+                                                    class="fab fa-instagram" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                                <!--/social link -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between mt65 swdarkfooter swhr">
+
+                <div class="col-lg-12 mt65">
+                    <div class="row  sw-hover-1">
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Website Designing</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="responsive-website-designing.html">Responsive Website
+                                            Designing</a></li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="static-website-designing.html">Static Website
+                                            Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="ecommerce-website-designing.html">E-commerce Website
+                                            Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="landing-page-design.html">Landing Page Designing</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Website Development</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="php-development.html">PHP
+                                            Development</a></li>
+                                    </li>
+                                    </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="wordpress-development.html">Wordpress Development </a>
+                                    </li>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Digital Marketing</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="search-engine-optimization.html">Search Engine Optimization
+                                            (SEO)</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="social-media-optimization.html">Social Media Optimization
+                                            (SMO)</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="pay-per-click.html">PayPer
+                                            Click</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="content-marketing.html">Content Marketing </a>
+                                    </li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="youtube-marketing.html">YouTube Marketing </a>
+                                    </li>
+
+                                    <li class="blink-text"><i class="fa-solid fa-chevron-right"></i> <a
+                                            href="google-ads-services-in-delhi.html" target="_blank" class="blink-text"
+                                            style="font-size: 15px;">Google Ads </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Graphic Desiging</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Logo Designing </a></li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="#">Brouchure Designing </a>
+                                    </li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href="#">GIFs / Video / Animation
+                                        </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer links column -->
+
+            <!-- /footer links column -->
+            <div class="footercreditandrevielinks swhr pt20 mt60">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footercreditnote sw-hover-1">
+                            <div>
+                                <p>© 2024 All Rights Reserved By <a href="#">Digitalsamadhaan</a></p>
+                            </div>
+                            <div class="linkftsw">
+                                <ul class="list-h-styled text-white">
+
+                                    <li><a href="company-profile.html">About Us</a></li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /sw-footer -->
+    <script>
+        $('textarea').keyup(function () {
+            var text_content = $(this).val();
+            const xmlhttp = new XMLHttpRequest();
+            xmlhttp.onload = function () {
+                var result = this.responseText;
+                if (result != "ok") {
+                    document.getElementById("error").innerHTML = result;
+                    document.getElementById("submit").style.display = "none";
+                } else {
+                    document.getElementById("error").innerHTML = "";
+                    document.getElementById("submit").style.display = "block";
+                }
+            }
+            xmlhttp.open("get.html", "php/abuse_filture93eb93eb.php?textcontent=" + text_content);
+            xmlhttp.send();
+        });
+    </script>
+    <!--Plugin Js Files -->
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/blueket.plugin.js"></script>
+    <script src="js/theme.darkmode.js"></script>
+    <script src="js/preloader.js"></script>
+    <!--Custom Js File -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

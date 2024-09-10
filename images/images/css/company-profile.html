@@ -1,0 +1,1643 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from digienter.com/images/images/css/company-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 10:07:19 GMT -->
+
+<!-- Mirrored from godigitalwebindia.netlify.app/images/images/css/company-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Sep 2024 05:25:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Digienter: Web Development | Digital Marketing Company in Delhi, India</title>
+    <!--Mega Tags-->
+    <meta name="description" content="Digienter is one of the most trusted Digital Marketing Company in Delhi, India and we provide professional and low cost Website Design Service in India. Call Now.">
+    <meta name="keywords" content="website designing services, website creation agency, web designing company, web development company, web development services, website development service in Dwarka, Delhi, India" />
+    <link rel="canonical" href="../../../index-2.html">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#111">
+    <!--Website Favicon Logo-->
+    <!-- <link href="images/favicon.png" rel="icon"> -->
+    <!--Plugin CSS Files-->
+    <link href="css/bootstrap.min.html" rel="stylesheet">
+    <link href="css/blueket.plugin.html" rel="stylesheet">
+    <!-- google font -->
+    <link href="../css27a877a87.html?family=Inter:wght@400;500;600;700;800;900&amp;family=Open+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+    <link href="../css2-142774277.html?family=Berkshire+Swash&amp;display=swap" rel="stylesheet">
+    <!--Custom CSS File-->
+    <link href="css/style.html" rel="stylesheet">
+    <link href="css/responsive.html" rel="stylesheet">
+    <link href="css/colormode.html" rel="stylesheet">
+    <!---- form submision script --->
+    <!-- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+	  <script src="../../../www.google.com/recaptcha/api.html" async defer></script>
+        <script src="http://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="php/jquery.min.html"></script>
+        <script>
+        $(function() {
+            $('#quote').bind('submit', function(event) {
+                // using this page stop being refreshing 
+		
+				let email1 = document.forms["quote"]["email"].value;
+				let phone1 = document.forms["quote"]["mobile_number"].value;
+				let content1 = document.forms["quote"]["description"].value;
+              if (email1 == "" || phone1 == "" ||content1 == "") {
+                alert("Please Fill All Mandatory Field !");
+                return false;
+              }else{
+                event.preventDefault();
+                $.ajax({
+                    type: 'POST',
+                    url: 'php/all_form_submit.php',
+                    data: $('#quote').serialize(),
+                    success: function(insert_result) {
+						grecaptcha.reset();
+                        var myArray = insert_result.split("|");
+                        var errorr = myArray[0];
+                        var word = myArray[1];
+						if (errorr != "captcha"){
+						$('#quote').trigger("reset");
+                        Swal.fire({
+                            icon: errorr,
+                            title: word,
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+						}else{
+                        $('#captcha_error2').text(word);
+						}
+                        
+                    }
+                });
+				}
+            });
+        });
+    </script>
+<script>
+  document.onclick= function(event) {
+    // Compensate for IE<9's non-standard event model
+    //
+    if (event===undefined) event= window.event;
+    var target= 'target' in event? event.target : event.srcElement;
+       var page = "index.html";
+	   var tagname = target.tagName;
+	    if(tagname == "A"){
+        	       var tagtextcontent = target.href;
+        	      }else if(tagname == "IMG"){
+        	       var tagtextcontent = target.src;   
+        	      }else{
+        	         var tagtextcontent = target.textContent; 
+        	          
+        	      }
+	   
+				const xmlhttp = new XMLHttpRequest();
+			     xmlhttp.onload = function() {
+				//document.getElementById("txtHint").innerHTML = this.responseText;
+					}
+				xmlhttp.open("get.html", "php/click_jack1fa91fa9.html?pagename=" + page + "&tagname=" + tagname + "&content=" + tagtextcontent);
+				xmlhttp.send();
+};
+</script>
+  
+</head>
+
+<body>
+
+
+    <!--Start header -->
+    <header class="header animation headerbg">
+<div style="display:none;"><p><a href="https://134.209.102.50/">Danatoto</a></p></div>
+<div style="display:none;"><p><a href="https://134.209.102.50/">Danatoto</a></p></div>
+<div style="display:none;"><p><a href="https://situsgengtoto.web.app/">Gengtoto</a></p></div>
+        <div class="container-fluid">
+            <div class="wrapper">
+                <!-- header logo -->
+                <div class="header-item-left">
+                    <a class='brandlogo' href='index-2.html'>
+                        <img src="images/logo.html" alt="logo" class="light">
+                        <img src="images/logo.html" alt="logo" class="dark">
+                    </a>
+                </div>
+                <!-- header nav -->
+                <div class="header-item-center hic">
+                    <div class="overlay"></div>
+                    <nav class="menu animation" id="menu">
+                        <div class="menu-mobile-header">
+                            <button type="button" class="menu-mobile-arrow"><i class="fa-solid fa-angle-left"></i></button>
+                            <div class="menu-mobile-title"></div>
+                            <button type="button" class="menu-mobile-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <ul class="menu-section">
+                            <li class="menu-item-has-children"><a href='index-2.html'>Home </a></li>
+                            <li class="menu-item-has-children"><a href='company-profile-2.html'>Company Profile </a></li>
+                            <li class="menu-item-has-children">
+                                <a>Services <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="menu-subs menu-mega menu-column-4 sw-hover-2">
+                                    <div class="list-item">
+                                        <h4 class="title">Website Designing</h4>
+                                        <ul>
+                                            <li><a href='responsive-website-designing-2.html'>Responsive Website Designing</a></li>
+                                            <li><a href='custom-website-designing-2.html'>Custom Website Designing</a></li>
+                                            <li><a href='mobile-ui-designing-2.html'>Mobile UI Designing</a></li>
+                                            <li><a href='static-website-designing-2.html'>Static Website Designing</a></li>
+                                            <li><a href='ecommerce-website-designing-2.html'>E-commerce Website Designing</a></li>
+                                            <li><a href='landing-page-designing-2.html'>Landing Page Designing</a></li>
+
+                                        </ul>
+                                        <a> <img src="images/blogs/blog-post-1.html" loading="lazy" alt="Product Images" class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Website Development</h4>
+                                        <ul>
+                                            <li><a href='php-development-2.html'>PHP Development</a></li>
+                                            <li><a href='laravel-development-2.html'>Laravel Development</a></li>
+                                            <li><a href='asp-dot-net-development-2.html'>ASP DOT NET Development </a></li>
+                                            <li><a href='wordpress-development-2.html'>Wordpress Development </a></li>
+                                            <li><a href='magento-development-2.html'>Magento Development</a></li>
+                                            <li><a>&nbsp;</a></li>
+
+                                        </ul>
+                                        <a> <img src="images/blogs/blog-post-6.html" loading="lazy" alt="Product Images" class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Digital Marketing</h4>
+                                        <ul>
+                                            <li><a href='search-engine-optimization-2.html'>Search Engine Optimization (SEO)</a></li>
+                                            <li><a href='social-media-optimization-2.html'>Social Media Optimization (SMO)</a></li>
+                                            <li><a href='pay-per-click-2.html'>PayPer Click</a></li>
+                                            <li><a href='content-marketing-2.html'>Content Marketing </a></li>
+                                            <li><a href='youtube-marketing-2.html'>YouTube Marketing </a></li>
+                                            <li><a>&nbsp;</a></li>
+                                        </ul>
+                                        <a> <img src="images/blogs/marketing-blog.html" loading="lazy" alt="Product Images" class="roundimg"></a>
+                                    </div>
+                                    <div class="list-item">
+                                        <h4 class="title">Graphic Desiging</h4>
+                                        <ul>
+                                            <li><a href='logo-designing-2.html'>Logo Designing </a></li>
+
+                                            <li><a href='brouchure-designing-2.html'>Brouchure Designing </a></li>
+                                            <li><a href='gif-video-animation-2.html'>GIFs / Video / Animation </a></li>
+                                            <li><a>&nbsp;</a></li>
+                                            <li><a>&nbsp;</a></li>
+                                            <li><a>&nbsp;</a></li>
+                                        </ul>
+                                        <a> <img src="images/blogs/uiuxdesign.html" loading="lazy" alt="Product Images" class="roundimg"></a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children"><a href='seo-packages-2.html'>Seo Packages </a></li>
+                            <li class="menu-item-has-children"><a href='career-2.html'>Career </a></li>
+                            <li class="menu-item-has-children"><a href='blog-2.html'>Blogs</a></li>
+                            <li class="menu-item-has-children"><a href='contact-us-2.html'>Contact Us </a></li>
+                            <li class="darkmodeswitch">
+                                <div class="switch-wrapper d-none"> <label class="switch" for="blueket"> <input type="checkbox" id="blueket">  <span class="slider round"></span> </label> </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- header action -->
+                <div class="header-item-right headeraction">
+                    <ul>
+                        <li><a href="tel:+91-8448440706" class="menu-icon"><i class="fa-solid fa-phone"></i></a> </li>
+                        <!-- <li><a href="https://www.digienter.com/paynow.php" target="_blank" class="sw-btn sw-orange-btn header-btn"><i class="fa-solid fa-money-bill"></i> Pay Now </a></li> -->
+                        <li>
+                            <a href="https://www.digienter.com/paynow.php" target="_blank"><img src="images/pay-now.html" width="140"> </a>
+                        </li>
+                        <li><button type="button" class="menu-mobile-toggle"> <span></span>  <span></span> <span></span> <span></span> </button> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--End header -->
+
+    <!--start sw-hero-section -->
+    <section class="demo-7-hero text-white">
+        <div class="herodiv">
+            <video autoplay="" muted="" loop="" id="myVideo" poster="images/banner.html">
+               <source src="images/images/banner.html" type="video/mp4">
+            </video>
+        </div>
+        <div class="container-fluid index-up">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="hero-content mt20">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <h1 class="mb20 mt20 wow fadeInUp" data-wow-delay=".8s"> We Build Your<br> Brand Online </h1>
+                        <p class="wow fadeInUp text-white" data-wow-delay="1.2s">A full-service digital marketing firm that specialises in human-centered experiences. We bring companies and people together.</p>
+
+                        <div class="hero-iconsets wow fadeInUp" data-wow-delay="1.6s">
+                            <a><img src="images/icons/goodfirm-1.html" alt="img"></a>
+                            <a><img src="images/icons/clutch-1.html" alt="img"></a>
+                            <a><img src="images/icons/google-1.html" alt="img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 mmt50 mt-5">
+
+                    <div class="cardsevc service--cards owl-carousel wow fadeInUp" data-wow-delay="2.5s">
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-07.html" alt=""></div>
+                                <div class="service-name">Web <br> Design </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-04.html" alt=""></div>
+                                <div class="service-name">App <br> Development </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-20.html" alt=""></div>
+                                <div class="service-name">Graphic <br> Design </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-11.html" alt=""></div>
+                                <div class="service-name">CMS <br> Development </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-16.html" alt=""></div>
+                                <div class="service-name">Ecommerce <br> Development </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="service-card-div service-slide">
+                            <a>
+                                <div class="service-images"><img src="images/object/other-13.html" alt=""></div>
+                                <div class="service-name">Digital <br> Marketing </div>
+                                <div class="circleffect">
+                                    <div class="animation">&nbsp;</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end sw-hero-section -->
+
+    <!-- block start -->
+    <section class="section-space">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="text-conent paragraph">
+                        <h3>To bring inspiration and innovation to every business in the world.</h3>
+                        <img src="images/common/team.html" alt="Mission" class="mt30">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="text-conent paragraph mmt30">
+                        <h5 class="scriptheading dashbefore">Mission</h5>
+                        <p class="mt20">We are a multi-award-winning digital consulting firm that provides end-to-end Online solutions to enterprises, independent firms.</p>
+                        <h4 class="mt20 mb20">A web design company in Delhi, India provides responsive web page designs and other services, responsible for brand recognition and improving business growth.</h4>
+                        <p>Expertise helps Digi Enter tackle the world's most difficult challenges. Digi Enter provides digital products for worldwide brands on the web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row immt100">
+                <div class="col-lg-12">
+                    <div class="paralleximg roundimg"><img src="images/common/office-view.html" alt="office view"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="counter-numbers row-blocks overtheimg fourcounter">
+                        <div class="counter-setdiv">
+                            <p> <span data-count-to="150" class="odometer"></span>+</p>
+                            <span class="countertag">Professionals Team</span>
+                        </div>
+                        <div class="counter-setdiv">
+                            <p><span data-count-to="010" class="odometer"></span>+</p>
+                            <span class="countertag">Years of Average Experience</span>
+                        </div>
+                        <div class="counter-setdiv">
+                            <p><span data-count-to="120" class="odometer"></span>k</p>
+                            <span class="countertag">Successful Projects Delivered</span>
+                        </div>
+                        <div class="counter-setdiv">
+                            <p><span data-count-to="050" class="odometer"></span>k</p>
+                            <span class="countertag">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- /block end-->
+
+    <!--service block -->
+    <section class="section-space bkbg3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-8 text-center">
+                    <h2 class="text-gradient-1 mb15 wow fadeIn" data-wow-delay=".2s">Services We Provide</h2>
+                    <p class="wow fadeIn" data-wow-delay=".4s">Digi Enter excels in offering good returns to businesses by developing customized websites to encourage profits as you go online.</p>
+                </div>
+            </div>
+            <div class="row mt30 dm4">
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".1s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/app.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='php-development-2.html'>Web<br> Development</a></h3>
+                        <p>Our Expert Development Team Gives Life to Your Website by developing Strong Functionality...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".4s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/ux-design.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='custom-website-designing-2.html'>Web<br> Designing</a></h3>
+                        <p>We create mind blowing web design which is as per latest technology & mobile responsive...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".8s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/content.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='content-marketing-2.html'>Content<br> Marketing</a></h3>
+                        <p>Content informs and guides customers increasing brand awareness among customer groups...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay="1.2s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/online-shop.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='magento-development-2.html'>Magento<br> Development</a></h3>
+                        <p>It has become mandatory for every business to be digitized due to High Compitition...</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".1s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/app1.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='wordpress-development-2.html'>Wordpress <br> Development</a></h3>
+                        <p>No matter the size of the business or the project – we endeavour to create long-term partnerships...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".4s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/app2.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='pay-per-click-2.html'>PayPer <br> Click</a></h3>
+                        <p>Pay Per Click Advertisements buy visits to business websites in which the advertisers pay for each click...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay=".8s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/app3.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='logo-designing-2.html'>Logo <br> Designing</a></h3>
+                        <p>Our highly experienced designers comprehend your vision and business objectives in order to create...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mt30 wow fadeIn" data-wow-delay="1.2s">
+                    <div class="sw-card white-bg shadow">
+                        <img src="images/icons/app4.html" alt="icon" class="innercardiocn">
+                        <h3 class="swbttitlex"><a href='youtube-marketing-2.html'>YouTube <br> Marketing</a></h3>
+                        <p>If you're reading this, we know for sure that you could use help with promoting your YouTube videos...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row index-up wow fadeIn" data-wow-delay=".8s">
+                <div class="col-lg-12">
+                    <div class="tech-slider mt100">
+                        <div class="sw-icon-slider owl-carousel">
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/android.html" alt="Android"> </div>
+                                <div class="slider-icon-text">
+                                    <p>Android </p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/aws.html" alt="aws"> </div>
+                                <div class="slider-icon-text">
+                                    <p>aws</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/figma.html" alt="figma"> </div>
+                                <div class="slider-icon-text">
+                                    <p>figma</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/firebase.html" alt="firebase"> </div>
+                                <div class="slider-icon-text">
+                                    <p>firebase</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/flutter.html" alt="flutter"> </div>
+                                <div class="slider-icon-text">
+                                    <p>flutter</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/google-cloud.html" alt="Google-cloud"> </div>
+                                <div class="slider-icon-text">
+                                    <p>Google-cloud</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/java.html" alt="java">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>Java</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/kotlin.html" alt="Kotlin"> </div>
+                                <div class="slider-icon-text">
+                                    <p>Kotlin</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/magento.html" alt="magento"> </div>
+                                <div class="slider-icon-text">
+                                    <p>magento</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/node.html" alt="Node.js">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>Node.js</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/python.html" alt="python">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>python</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/react.html" alt="react">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>react</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/sketch.html" alt="sketch">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>sketch</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/sqlite.html" alt="sqlite">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>sqlite</p>
+                                </div>
+                            </div>
+                            <div class="icon-slider-block">
+                                <div class="slider-icon"> <img src="images/icons/tech-icons/swift.html" alt="swift">
+                                </div>
+                                <div class="slider-icon-text">
+                                    <p>swift</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ service block -->
+
+    <section class="word-block-div section-space  " style="background-image:url(images/wave.html) ;">
+
+        <!-- Start About 
+    ============================================= -->
+        <div class="about-features-area about-area default-padding  ">
+            <div class="container">
+                <div class="row v-center">
+
+                    <!-- Start About Content -->
+                    <div class="col-lg-6 info wow fadeInLeft  ">
+
+                        <h2 class="mb30">Join BSS Network with <br> <strong>2000+ B2B Merchants</strong></h2>
+                        <p>B2B sellers choose BSS to augment B2B websites that bear business nature and speak brand voice powerfully.</p>
+                        <p>Magento, Shopify or BigCommerce - We cover them all!</p>
+                        <p>See how BSS develop and launch prosperous B2B/ B2M websites on various platforms for clients all over the world.</p>
+
+
+                    </div>
+                    <!-- End About Content -->
+
+                    <!-- Start Process Content -->
+                    <div class="col-lg-6 process-box text-center ">
+                        <div class="row">
+                            <div class="item-grid col-lg-6 col-md-6">
+                                <a href="#quote_modal">
+                                    <div class="item wow fadeInUp" data-wow-delay="500ms">
+                                        <div class="icon">
+                                            <i class="fas fa-chart-line"></i>
+                                        </div>
+                                        <h4>Research</h4>
+                                    </div>
+                                </a>
+                                <a href="#quote_modal">
+                                    <div class="item wow fadeInUp" data-wow-delay="500ms">
+                                        <div class="icon">
+                                            <i class="fas fa-hdd"></i>
+                                        </div>
+                                        <h4>Data Collection</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item-grid col-lg-6 col-md-6">
+                                <a href="#quote_modal">
+                                    <div class="item wow fadeInUp" data-wow-delay="500ms">
+                                        <div class="icon">
+                                            <i class="fas fa-bullseye"></i>
+                                        </div>
+                                        <h4>Targeting</h4>
+                                    </div>
+                                </a>
+                                <a href="#quote_modal">
+                                    <div class="item wow fadeInUp" data-wow-delay="500ms">
+                                        <div class="icon">
+                                            <i class="fas fa-list-alt"></i>
+                                        </div>
+                                        <h4>Result</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End  Process Content -->
+
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+        <!-- <div class="joint-bss">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content-left">
+                            <h3 class="title-join">Join BSS Network with 2000+ B2B Merchants</h3>
+                            <ul class="list-item">
+                                <li><span class="text-item">B2B sellers choose BSS to augment B2B websites that bear business nature and speak brand voice powerfully.</span></li>
+                                <li><span class="text-item">Magento, Shopify or BigCommerce - We cover them all!</span></li>
+                                <li><span class="text-item">See how BSS develop and launch prosperous B2B/ B2M websites on various platforms for clients all over the world.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-4"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo1.webp" data-loaded="true"></div>
+                            <div class="col-lg-4"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo2.webp" data-loaded="true"></div>
+                            <div class="col-lg-4 mb40"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo3.webp" data-loaded="true"></div>
+
+                            <div class="col-lg-4"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo4.webp" data-loaded="true"></div>
+                            <div class="col-lg-4"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo5.webp" data-loaded="true"></div>
+                            <div class="col-lg-4 mb40"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo6.webp" data-loaded="true"></div>
+
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-4"><img class="lozad" src="https://bsscommerce.com/media/bss/webp/media/wysiwyg/b2bimplement/logo/logo7.webp" data-loaded="true"></div>
+                            <div class="col-lg-4"></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class=" wow fadeInUp mb40 " data-wow-delay=".4s">Latest Verified B2B Buy Leads</h3>
+
+                    <div class="row">
+                        <div class=" col-sm-12 ">
+                            <div class="b2b-buy ">
+                                <ul>
+                                    <li class="bg">
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> AGRICULTURE </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> CLEAN TAIL HAIR </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="bg">
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> MINI RICE MILLS </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> TYRES AND TUBES </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="bg">
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> FURNISHINGS CLOTHES </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> DUCK FOOT SHOVELS </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="bg">
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> PACKERS AND MOVERS </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#quote_modal">
+                                            <div class="row">
+                                                <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                                <div class="col-lg-8 col-8">
+                                                    <p> WAX STACHU </p>
+                                                </div>
+                                                <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mmt30">
+                    <h3 class=" wow fadeInUp mb40  " data-wow-delay=".4s">Latest B2B Products in India</h3>
+
+                    <div class="row">
+                        <div class="b2b-buy1">
+                            <ul>
+                                <li class="bg">
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> SOFA DRY CLEANING </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> GREEN CARDAMOM </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="bg">
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> SCHOOL T.SHIRT </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> BRASS MOLDING INSERTS </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="bg">
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> THERMAL INSULATION ROLL </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> PYRETHRUM EXTRACT </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="bg">
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black  b2b-hidden ">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> PAINTING SERVICES </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#quote_modal">
+                                        <div class="row">
+                                            <div class="col-lg-2 col-2"><img src="images/b-icon.jpg"> <small class="text-black b2b-hidden">India</small></div>
+                                            <div class="col-lg-8 col-8">
+                                                <p> LIVPURE RO WATER PURIFIER SYST... </p>
+                                            </div>
+                                            <div class="col-lg-2 col-2 text-right"><span class="text-black b2b-date">06 Sep</span></div>
+                                        </div>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+
+    <!--star work  block -->
+    <section class="word-block-div section-space" style="background-image:url(images/bg1.html) ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="text-gradient-1 wow fadeInUp" data-wow-delay=".4s">Rank on the first page of Google</h3>
+                    <a href="tel:+91-8448440706" class="inline-btn mt20 wow fadeInUp" data-wow-delay=".8s">All Over India <i class="fa-solid fa-arrow-trend-up"></i></a>
+                </div>
+                <div class="col-lg-6 mmt30">
+                    <p class=" wow fadeInUp" data-wow-delay="1.2s">It's crucial to make sure that local customers can find your company when they look for items or services. Since 100% of serious clients use Google as their primary search engine, a local SEO service can assist in making sure that
+                        your company shows up at the top of Google search results.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container mt60">
+            <div class="row  wow fadeInUp" data-wow-delay="1.4s">
+                <div class="col-lg-12">
+                    <div class="work-slide owl-carousel full-button centerbtns">
+                        <div class="our-works">
+                            <div class="work-imags">
+                                <a><img src="images/icons/rank-1.html" alt="work" class="card-img-round"></a>
+                            </div>
+
+                        </div>
+                        <div class="our-works">
+                            <div class="work-imags">
+                                <a><img src="images/icons/rank-3.html" alt="work" class="card-img-round"></a>
+                            </div>
+
+                        </div>
+                        <div class="our-works">
+                            <div class="work-imags">
+                                <a><img src="images/icons/rank-2.html" alt="work" class="card-img-round"></a>
+                            </div>
+
+                        </div>
+                        <!--<div class="our-works">-->
+                        <!--    <div class="work-imags">-->
+                        <!--        <a><img src="images/icons/rank4.png" alt="work" class="card-img-round"></a>-->
+                        <!--    </div>-->
+
+                        <!--</div>-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end work block -->
+
+    <!--end work block -->
+
+    <section class="pricing-block section-space   shape-main">
+        <!-- shape design -->
+        <div class="shape-div5 shapesvg">
+            <div class="imgshp ssp15 rellax" data-rellax-speed="-1" data-rellax-percentage="0"><img src="images/shape/17.html" alt="img"></div>
+            <div class="imgshp ssp14 rellax" data-rellax-speed="0.5" data-rellax-percentage="0"><img src="images/shape/19.html" alt="img"></div>
+        </div>
+        <!-- shape design -->
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+
+                    <h2 class="text-gradient-1 wow fadeIn" data-wow-delay=".4s">SEO Packages</h2>
+                </div>
+            </div>
+            <div class="row mt60 justify-content-between">
+                <div class="col-lg-3">
+                    <div class="customersupportsecion">
+                        <div class="customersupportblock">
+                            <div class="block-asw"><img src="images/common/customer-support.html" alt="img"></div>
+                            <h5 class="mb15 mt20">Request a Call Back</h5>
+                            <p>Read more about how Digi Enter works and how it can help you.</p>
+                        </div>
+                        <div class="conactinfoblock mt60 shape-main">
+                            <h5>Have Questions?</h5>
+                            <div class="mediablock mt30">
+                                <div class="icondiv"><img src="images/icons/whatsapp-chat.html" alt="icon"></div>
+                                <div class="mediainfoblock">
+                                    <p class="linktitle">Connect With Us</p>
+                                    <a href="tel:+91-8448440706" class="contactlink">+91-8448440706</a>
+                                </div>
+                            </div>
+                            <div class="mediablock mt30">
+                                <div class="icondiv"><img src="images/icons/chat.html" alt="icon"></div>
+                                <div class="mediainfoblock">
+                                    <p class="linktitle">Begin a Quick Discussion</p>
+                                    <a href="mailto:info@digienter.com" class="contactlink">Live Chat With Us</a>
+                                </div>
+                            </div>
+                            <!-- shape -->
+                            <img src="images/shape/50.html" alt="img" class="arrowtotarget">
+                            <!-- shape -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mmt40">
+                            <div class="pricing-table-aa1 shadow">
+                                <div class="pthead-aa1 text-white">
+                                    <img src="images/icons/paper-plane.html" alt="img">
+                                    <h4>RankRover</h4>
+                                    <h5 class="tableamount">Minimum Contract Period 4 Months<span>Initial Free Site Analysis</span></h2>
+                                </div>
+                                <div class="ptbody-aa1 mr-auto">
+                                    <ul class="tablelist mb30">
+                                        <li>Technical Website Audit</li>
+                                        <li>UX Design & Website Content Audit</li>
+                                        <li>SEO Backlinks Audit</li>
+                                        <li>Regularly Scheduled Follow-up Site Audit</li>
+                                        <li>Social Media Audit</li>
+                                        <li>Site Health Audits or Position Audit</li>
+                                    </ul>
+                                    <a class='sw-btn sw-blue-btn' href='seo-packages-2.html'>Get More <i class="fa-solid fa-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mmt40">
+                            <div class="pricing-table-aa1 shadow">
+                                <div class="pthead-aa1 text-white">
+                                    <img src="images/icons/paper-plane.html" alt="img">
+                                    <h4>RankMaster</h4>
+                                    <h5 class="tableamount">Minimum Contract Period 6 Months<span>Initial Free Site Analysis</span></h2>
+                                </div>
+                                <div class="ptbody-aa1 mr-auto">
+                                    <ul class="tablelist mb30">
+                                        <li>Technical Website Audit</li>
+                                        <li>UX Design & Website Content Audit</li>
+                                        <li>SEO Backlinks Audit</li>
+                                        <li>Regularly Scheduled Follow-up Site Audit</li>
+                                        <li>Social Media Audit</li>
+                                        <li>Site Health Audits or Position Audit</li>
+                                    </ul>
+                                    <a class='sw-btn sw-blue-btn' href='seo-packages-2.html'>Get More <i class="fa-solid fa-arrow-right"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="pricing-block pt50 pb50 bkbg0 bg--2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+
+                    <h3>Our Certifications</h3>
+                </div>
+            </div>
+            <div class="row mt60">
+                <div class="col-lg-12">
+                    <div class="clients-logos">
+                        <ul class="text-center">
+                            <li class="wow fadeIn" data-wow-delay=".1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p1.html" alt="clients" class="img-fluid"></div>
+                            </li>
+                            <li class="wow fadeIn" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p2.html" alt="clients" class="img-fluid"></div>
+                            </li>
+                            <li class="wow fadeIn" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p3.html" alt="clients" class="img-fluid"></div>
+                            </li>
+                            <li class="wow fadeIn" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p4.html" alt="clients" class="img-fluid"></div>
+                            </li>
+                            <li class="wow fadeIn" data-wow-delay="1.3s" style="visibility: visible; animation-delay: 1.3s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p5.html" alt="clients" class="img-fluid"></div>
+                            </li>
+                            <li class="wow fadeIn" data-wow-delay="1.6s" style="visibility: visible; animation-delay: 1.6s; animation-name: fadeIn;">
+                                <div class="brand-logo"><img src="images/p6.html" alt="clients" class="img-fluid"></div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- industry work start -->
+    <section class="industry-work section-space bg-efffect-1 bkbg3 ">
+        <div class="container index-up">
+            <div class="row">
+                <div class="col-lg-10">
+                    <span class="scriptheading dashbefore mb15"></span>
+                    <h2 class="text-gradient-1">We Work for Various Sectors</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between ">
+                <div class="col-lg-12">
+                    <div class="cate-with-img-main">
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay=".1s">
+                            <div class="imgimg"><img src="images/icons/house.html" alt="img"> </div>
+                            <p>Real Estate</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay=".4s">
+                            <div class="imgimg"><img src="images/icons/travel-luggage.html" alt="img"> </div>
+                            <p>Tour & Travels</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay=".7s">
+                            <div class="imgimg"><img src="images/icons/magistrate.html" alt="img"> </div>
+                            <p>Education</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="1s">
+                            <div class="imgimg"><img src="images/icons/car.html" alt="img"> </div>
+                            <p>Transport</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="1.3s">
+                            <div class="imgimg"><img src="images/icons/calendar.html" alt="img"> </div>
+                            <p>Event</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="1.6s">
+                            <div class="imgimg"><img src="images/icons/online-shop-2.html" alt="img"> </div>
+                            <p>eCommerce</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="1.9s">
+                            <div class="imgimg"><img src="images/icons/game-controller.html" alt="img"> </div>
+                            <p>Game</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="2.2s">
+                            <div class="imgimg"><img src="images/icons/healthcare.html" alt="img"> </div>
+                            <p>Healthcare</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="2.5s">
+                            <div class="imgimg"><img src="images/icons/piggy-bank.html" alt="img"> </div>
+                            <p>Finance</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="2.8s">
+                            <div class="imgimg"><img src="images/icons/restaurant.html" alt="img"> </div>
+                            <p>Restaurant</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="3.1s">
+                            <div class="imgimg"><img src="images/icons/layers.html" alt="img"> </div>
+                            <p>On-Demand</p>
+                        </div>
+                        <div class="roundiconwithdata wow fadeIn" data-wow-delay="3.4s">
+                            <div class="imgimg"><img src="images/icons/grocery-bag.html" alt="img"> </div>
+                            <p>Grocery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- industry work end -->
+
+    <!-- block -->
+    <section class="office-interior imageoutofbox pb100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="imageoutbox">
+                        <img src="images/common/office-building.html" alt="office" class="card-img-round  wow fadeIn" data-wow-delay=".2s">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt60 mmt40 justify-content-between">
+                <div class="col-lg-6">
+                    <div class="title-heading wow fadeIn" data-wow-delay=".2s">
+                        <h3 class="text-white">Why hire me for your project?</h3>
+                    </div>
+                    <div class="medialist mt40 wow fadeIn" data-wow-delay=".4s">
+                        <div class="mediablock">
+                            <div class="icondiv"><img src="images/icons/thumbs-up.html" alt="icon"></div>
+                            <div class="mediainfoblock">
+                                <h5 class="mb10 text-white">Creative Idea</h5>
+                                <p>Digi Enter is a company that specialises in risk management and general safety. </p>
+                            </div>
+                        </div>
+                        <div class="mediablock mt30">
+                            <div class="icondiv"><img src="images/icons/budget.html" alt="icon"></div>
+                            <div class="mediainfoblock">
+                                <h5 class="mb10 text-white">Problem Solver</h5>
+                                <p>If you think to have a better outcome with low cost then Digi Enter is the one.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mmt40">
+                    <div class="expen-blocks">
+                        <div class="ex--">
+                            <div class="progressbar circle-bar orange" data-value="90"></div>
+                            <p>Photoshop</p>
+                        </div>
+
+                        <div class="ex--">
+                            <div class="progressbar circle-bar blue" data-value="95"></div>
+                            <p>Figma</p>
+                        </div>
+
+                        <div class="ex--">
+                            <div class="progressbar circle-bar yellow" data-value="80"></div>
+                            <p>CorelDraw</p>
+                        </div>
+
+                        <div class="ex--">
+                            <div class="progressbar circle-bar cyan" data-value="95"></div>
+                            <p>Canva</p>
+                        </div>
+
+                        <div class="ex--">
+                            <div class="progressbar circle-bar purple" data-value="80"></div>
+                            <p>Illustrator</p>
+                        </div>
+
+                        <div class="ex--">
+                            <div class="progressbar circle-bar warning" data-value="60"></div>
+                            <p>After Effect</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--/block -->
+
+    <section class="service-block-div section-space shape-main bg--1" style="background-image:url(images/bg.html) ;">
+
+        <!-- shape design -->
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-xl-7 col-lg-8">
+                    <h2 class="text-gradient-1 mb15 wow fadeIn" data-wow-delay=".2s">Google Certificates</h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt60">
+                <div class="col-lg-12">
+                    <div class="service-cards owl-carousel">
+                        <div class="service-card-div gradient-1">
+                            <a>
+                                <div class="service-images"><img src="images/c1.html" alt="#"></div>
+
+                            </a>
+                        </div>
+                        <div class="service-card-div gradient-2">
+                            <a>
+                                <div class="service-images"><img src="images/c2.html" alt="#"></div>
+
+                            </a>
+                        </div>
+                        <div class="service-card-div gradient-3">
+                            <a>
+                                <div class="service-images"><img src="images/c3.html" alt="#"></div>
+
+                            </a>
+                        </div>
+                        <div class="service-card-div gradient-4">
+                            <a>
+                                <div class="service-images"><img src="images/c4.html" alt="#"></div>
+
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/ service block -->
+    <!-- Review section start -->
+    <section class="clients-section section-space   ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <!-- <span class="scriptheading mb15 wow fadeIn" data-wow-delay=".2s">Review/Feedback</span> -->
+                    <h2 class="text-gradient-1 wow fadeIn" data-wow-delay=".4s">Happy Clients With Digital Transformation</h2>
+                </div>
+            </div>
+            <div class="row mt60">
+                <div class="col-lg-12">
+                    <div class="review-slider owl-carousel full-button">
+                        <div class="blueket-card-noise card-img-round pt30">
+                            <div class="review-img-block">
+                                <div class="user-image"><img src="images/common/user-image.html" alt="review"></div>
+                                <div class="user-content">
+                                    <h5>Rohan </h5>
+                                    <p>CEO R Founder</p>
+                                </div>
+                            </div>
+                            <div class="review-content mt30 mb30">
+                                <p>Digienter and his team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with,
+                                    as well as being fast to respond and adapt to the needs of your brand.</p>
+                            </div>
+                            <div class="review-footer pair-block">
+                                <div class="image-icon">
+                                    <a><img src="images/icons/google.html" alt="icon"></a>
+                                </div>
+                                <div class="starrating">
+                                    <ul>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blueket-card-noise card-img-round pt30">
+                            <div class="review-img-block">
+                                <div class="user-image"><img src="images/common/user-image.html" alt="review"></div>
+                                <div class="user-content">
+                                    <h5>Ramesh Gonsalweg </h5>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                            <div class="review-content mt30 mb30">
+                                <p>Digienter team has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people
+                                    contacting us thanks to Jomer’s knowledge and hard work.</p>
+                            </div>
+                            <div class="review-footer pair-block">
+                                <div class="image-icon">
+                                    <a><img src="images/icons/google.html" alt="icon"></a>
+                                </div>
+                                <div class="starrating">
+                                    <ul>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blueket-card-noise card-img-round pt30">
+                            <div class="review-img-block">
+                                <div class="user-image"><img src="images/common/user-image.html" alt="review"></div>
+                                <div class="user-content">
+                                    <h5>Radhey </h5>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                            <div class="review-content mt30 mb30">
+                                <p>Digienter Pvt Ltd’s ranking has gone up so much from the great work that your team has done and our brand get organic sales consistently from your efforts. We are happy that the results of your efforts were lasting and
+                                    profitable.
+                                </p>
+                            </div>
+                            <div class="review-footer pair-block">
+                                <div class="image-icon">
+                                    <a><img src="images/icons/google.html" alt="icon"></a>
+                                </div>
+                                <div class="starrating">
+                                    <ul>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blueket-card-noise card-img-round pt30">
+                            <div class="review-img-block">
+                                <div class="user-image"><img src="images/common/user-image.html" alt="review"></div>
+                                <div class="user-content">
+                                    <h5>Rajesh </h5>
+                                    <p>CEO Microhost</p>
+                                </div>
+                            </div>
+                            <div class="review-content mt30 mb30">
+                                <p>Start working with an company that can do provide every thing at you need to generate awareness, drive traffic, connect with</p>
+                            </div>
+                            <div class="review-footer pair-block">
+                                <div class="image-icon">
+                                    <a><img src="images/icons/google.html" alt="icon"></a>
+                                </div>
+                                <div class="starrating">
+                                    <ul>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                        <li> <a href="javascript:void(0)" class="checked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt60 v-center">
+                <div class="col-lg-4">
+                    <h4>Read More Review on</h4>
+                    <p class="mt15">Read our client's testimonials all around the web. We deliver quality service that loves everyone.</p>
+                </div>
+                <div class="col-lg-8">
+                    <ul class="clients-logo-table owl-carousel full-button">
+                        <li class="img-client-logo-cell"><img src="images/clients/trustplot.html" alt="logo"></li>
+                        <li class="img-client-logo-cell"><img src="images/clients/clutchreview.html" alt="logo"></li>
+                        <li class="img-client-logo-cell"><img src="images/clients/appstore.html" alt="logo"></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Review section  -->
+
+    <!-- sw-footer -->
+    <footer class="footer-design-sw pt60 pb30 text-white swdarkfooter">
+        <div class="container index-up">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <div class="contact-form-card-pr   iconin">
+                        <h4>Get A Free Quote</h4>
+                        <div class="form-block blueketform mt30">
+                            <form id="quote" novalidate="novalidate">
+                                <div class="fieldsets row">
+
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-phone"></i></div>
+                                        <input type="tel" placeholder=" " required="required" id="mobile_number" class="floating-input" name="mobile_number">
+                                        <label>Mobile Number*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+                                </div>
+                                <div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-envelope"></i></div>
+                                        <input type="email" placeholder=" " required="required" id="email" class="floating-input" name="email">
+                                        <label>Email Address*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+
+                                </div>
+                                <div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+                                        <div class="formicon"><i class="fa-solid fa-message"></i></div>
+                                        <textarea placeholder=" " required="required" id="description" class="floating-input" name="description"></textarea>
+                                        <label>Type Your Message...*</label>
+                                        <div class="error-label"></div>
+                                    </div>
+                                </div>
+								<div class="fieldsets row">
+                                    <div class="col-md-12 form-group floating-label">
+										<div class="g-recaptcha" data-sitekey="6LcC_MwjAAAAAKmoer-BWrw2Ah9vUZZF6ef-HaQv"></div>
+										<div id="captcha_error2"></div>
+									</div>
+                                </div>
+                                <span id="error"></span>
+                                <div class="fieldsets "> <button type="submit" name="submit" id="submit"  class="porkai-btn "><span>Submit</span> <span class="loader"></span></button> </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row  sw-hover-1">
+
+                        <div class="col-lg-5 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Company Links</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='company-profile-2.html'>About Us </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='contact-us-2.html'>Contact Us </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='career-2.html'>Career </a></li>
+                                    <!-- <li><i class="fa-solid fa-chevron-right"></i> <a href="terms-of-use.html">Terms of Use</a></li> -->
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='privacy-policy-2.html'>Privacy Policy</a></li>
+                                    <p>&nbsp;</p>
+                                </ul>
+                            </div>
+
+                            <div class="footer-links">
+                                <h5>Google Certified</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='google-partner-in-india-2.html'>Google Partner </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='google-sme-partner-in-india-2.html'>Google Sme Partner</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='google-adwords-certified-partner-in-india-2.html'>Google Adwords Certified Partner </a></li>
+                                    <!-- <li><i class="fa-solid fa-chevron-right"></i> <a href="customer-reviews.html">Customer Reviews </a></li> -->
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='client-testimonial-2.html'>Client Testimonials</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="footer-brand-info">
+
+                                <!-- contact -->
+                                <div class="contactinkediv ">
+                                    <span class="linktitle">Send Us an Email:</span>
+                                    <a href="mailto:info@digienter.com">info@digienter.com</a>
+                                </div>
+                                <div class="contactinkediv mt30">
+                                    <span class="linktitle">Customer Helpline IVR no. :</span>
+                                    <a href="tel:+91-8448440706">+91-8448440706</a>
+                                </div>
+                                <!-- /contact -->
+                                <div class="contactinkediv mt30">
+                                    <span class="linktitle">Location 1 :</span>
+                                    <p> A-3, 2nd Floor, Bhagwati Garden</p>
+                                    <p> Dwarka Mor Metro Station Gate Number 1, Delhi 110059</p>
+                                </div>
+                                <div class="contactinkediv mt30">
+                                    <span class="linktitle">Location 2 :</span>
+                                    <p> Prop.No-65,3rd Floor, Sewak Park</p>
+                                    <p> Dwarka Mor Metro Station Gate Number 2, Delhi 110059</p>
+                                </div>
+                                <!-- social link -->
+                                <div class="social-link-sw mt30">
+                                    <span class="linktitle">Follow Us</span>
+                                    <ul class="footer-social-sw mt10 sw-hover-2">
+                                        <li><a href="https://twitter.com/enter_digi" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li> <a href="https://www.facebook.com/digienter01/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+
+                                        <li><a href="https://www.linkedin.com/in/digi-enter-0366b1178/" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                        <li> <a href="https://www.instagram.com/digienter/?hl=en" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
+                                    </ul>
+                                </div>
+                                <!--/social link -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between mt65 swdarkfooter swhr">
+
+                <div class="col-lg-12 mt65">
+                    <div class="row  sw-hover-1">
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Website Designing</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='responsive-website-designing-2.html'>Responsive Website Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='custom-website-designing-2.html'>Custom Website Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='mobile-ui-designing-2.html'>Mobile UI Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='static-website-designing-2.html'>Static Website Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='ecommerce-website-designing-2.html'>E-commerce Website Designing</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='landing-page-designing-2.html'>Landing Page Designing</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Website Development</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='php-development-2.html'>PHP Development</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='laravel-development-2.html'>Laravel Development</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='asp-dot-net-development-2.html'>ASP DOT NET Development </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='wordpress-development-2.html'>Wordpress Development </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='magento-development-2.html'>Magento Development</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Digital Marketing</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='search-engine-optimization-2.html'>Search Engine Optimization (SEO)</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='social-media-optimization-2.html'>Social Media Optimization (SMO)</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='pay-per-click-2.html'>PayPer Click</a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='content-marketing-2.html'>Content Marketing </a></li>
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='youtube-marketing-2.html'>YouTube Marketing </a></li>
+
+<li class="blink-text" ><i class="fa-solid fa-chevron-right"></i> <a class='blink-text' href='manage-account.html' style='font-size: 15px;' target='_blank'>Get Business Needs  </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6 ">
+                            <div class="footer-links">
+                                <h5>Graphic Desiging</h5>
+                                <ul class="mt20">
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='logo-designing-2.html'>Logo Designing </a></li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='brouchure-designing-2.html'>Brouchure Designing </a></li>
+
+                                    <li><i class="fa-solid fa-chevron-right"></i> <a href='gif-video-animation-2.html'>GIFs / Video / Animation </a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- footer links column -->
+            <div class="footerbreak swhr">
+                <div class="award-badge-block mt50">
+                    <a><img src="images/icons/award-badge-1.html" alt="icon"></a>
+                    <a><img src="images/icons/award-badge-2.html" alt="icon"></a>
+                    <a><img src="images/icons/award-badge-3.html" alt="icon"></a>
+                    <a><img src="images/icons/award-badge-5.html" alt="icon"></a>
+                    <a><img src="images/icons/award-badge-6.html" alt="icon"></a>
+                    <a><img src="images/icons/award-badge-7.html" alt="icon"></a>
+                </div>
+            </div>
+            <!-- /footer links column -->
+            <div class="footercreditandrevielinks swhr pt20 mt60">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footercreditnote sw-hover-1">
+                            <div>
+                                <p>© 2017-2022 All Rights Reserved By <a href='index-2.html'> DIGIENTER</a></p>
+                            </div>
+                            <div class="linkftsw">
+                                <ul class="list-h-styled text-white">
+
+                                    <li><a href='company-profile-2.html'>About Us</a></li>
+                                    <li><a href='contact-us-2.html'>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /sw-footer -->
+    <div id="quote_modal" class="QuoteModal">
+        <div class="popup_modal">
+            <div>
+                <a href="#close" title="Close" class="quoteclose">X</a>
+                <h3>Get a Quote</h3>
+            </div>
+            <div>
+                <form role="form" class="text-center">
+                    <div class="form-group">
+                        <input type="text" required class="form-control con_" placeholder="Name" tabindex="1">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required class="form-control con_" placeholder="Email" tabindex="2">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" required class="form-control con_" placeholder="Phone" tabindex="3">
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="10" required class="form-control con_" placeholder="Message" tabindex="4"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div>
+                  
+                <button type="button" class="btn btn-danger">Send </button>
+            </div>
+        </div>
+    </div>
+
+<script>
+$('textarea').keyup(function() {
+    var text_content = $(this).val();
+	const xmlhttp = new XMLHttpRequest();
+			xmlhttp.onload = function() {
+			var result = this.responseText;
+				  if(result != "ok"){
+					  document.getElementById("error").innerHTML= result; 
+							document.getElementById("submit").style.display = "none";
+				  }else{
+					  document.getElementById("error").innerHTML= "";
+							document.getElementById("submit").style.display = "block";
+				  }
+			}
+		  xmlhttp.open("get.html", "php/abuse_filture93eb93eb.html?textcontent=" + text_content);
+		  xmlhttp.send();
+});
+</script> 
+    <!--Plugin Js Files -->
+    <script src="js/jquery.min.html"></script>
+    <script src="js/bootstrap.bundle.min.html"></script>
+    <script src="js/blueket.plugin.html"></script>
+    <script src="js/theme.darkmode.html"></script>
+    <script src="js/preloader.html"></script>
+    <script src="js/noframework.waypoints.min.html"></script>
+    <script src="js/progressbar.min.html"></script>
+    <script src="js/particles.min.html"></script>
+    <!--Custom Js File -->
+    <script src="js/custom.html"></script>
+
+</body>
+
+
+<!-- Mirrored from digienter.com/images/images/css/company-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 10:07:19 GMT -->
+
+<!-- Mirrored from godigitalwebindia.netlify.app/images/images/css/company-profile.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 02 Sep 2024 05:25:06 GMT -->
+</html>
